@@ -1,0 +1,121 @@
+/*
+ * File: login_style.css (Chỉnh sửa để căn giữa khối Form + Link)
+ */
+
+/* ---- General settings for the whole page ---- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    
+    /* 1. CHỈNH SỬA QUAN TRỌNG: Dùng flex-direction: column để xếp form và link theo chiều dọc */
+    display: flex;
+    flex-direction: column; 
+    
+    /* 2. Căn giữa cả khối (form và link) theo chiều dọc */
+    justify-content: center; 
+    
+    /* 3. Căn giữa cả khối (form và link) theo chiều ngang */
+    align-items: center;    
+    
+    height: 100vh;
+    margin: 0;
+}
+
+/* ---- Styles for the form container (the box) ---- */
+fieldset {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 2rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 350px; /* Định nghĩa chiều rộng cố định */
+    /* Không cần margin-bottom vì body flex đã căn chỉnh */
+}
+
+/* ---- Styles for the form title ---- */
+legend {
+    font-size: 1.8em; 
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px; 
+    margin-left: 10px; 
+}
+
+/* ---- Styles for the labels (Username, Password) ---- */
+label {
+    display: block; 
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 600;
+}
+
+/* ---- General styles for text input fields ---- */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+/* ---- Container for buttons, helps with alignment ---- */
+.button-group {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 1rem;
+}
+
+/* ---- General styles for all buttons ---- */
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s ease; 
+}
+
+/* Blue "Login" or "Search" button */
+input[type="submit"] {
+    background-color: #007bff;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+/* Gray "Reset" button */
+input[type="reset"] {
+    background-color: #6c757d;
+}
+
+input[type="reset"]:hover {
+    background-color: #5a6268; 
+}
+
+/* ---- Styles for the Sign-up link section ---- */
+
+/* 4. CHỈNH SỬA QUAN TRỌNG: Áp dụng style trực tiếp cho link A */
+body > a {
+    display: block; 
+    text-align: center; 
+    margin-top: 20px; 
+    width: 350px; 
+}
+
+/* Styles for the link text */
+a[href="createAccount.html"] {
+    color: #007bff;
+    text-decoration: none; 
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+a[href="createAccount.html"]:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}

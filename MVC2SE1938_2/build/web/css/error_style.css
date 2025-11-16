@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 4, 2025, 4:02:57 PM
+    Author     : Admin
+*/
+
+/* ---- General settings for the whole page (Consistent style) ---- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center;    /* Center content horizontally */
+    height: 100vh;          /* Full screen height */
+    margin: 0;
+    text-align: center;
+}
+
+/* ---- Styles for the main error message (H1) ---- */
+h1 {
+    /* The inline style 'color: red' is already set, but we enhance the box style */
+    color: #dc3545; /* Standard red color for errors */
+    font-size: 2.2em;
+    margin-bottom: 25px; 
+    font-weight: bold;
+    
+    /* Create a prominent error box */
+    background-color: #ffffff; /* White background */
+    padding: 30px 60px;
+    border: 2px solid #dc3545; /* Red border */
+    border-radius: 10px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow to stand out */
+}
+
+
+

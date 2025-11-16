@@ -1,0 +1,38 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class MaxAndMinChallenge {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        double max = 0;
+        double min = 0;
+        int loopCount = 0;
+
+        while (true) {
+            System.out.println("Enter the number (or any character to quit) : " );
+            String nextEntry = scanner.nextLine().trim();
+
+            try {
+                double validNum = Double.parseDouble(nextEntry);
+                if (loopCount == 0 || validNum < min) {
+                    min = validNum;
+                }
+                if (loopCount == 0 || validNum > max) {
+                    max = validNum;
+                }
+                loopCount ++;
+            } catch (NumberFormatException nfe) {
+                break;
+            }
+        }
+
+        if (loopCount > 0) {
+            System.out.println("min = " + min);
+            System.out.println("max = " + max);
+        }
+        else {
+            System.out.println("No valid data entered");
+        }
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/login_style.css">
+    </head>
+    <body>
+        <form action="login" method="POST">
+            <fieldset>
+                <legend>Login</legend>
+                
+                <label for="username">Username</label>
+                <input id="username" type="text" name="txtUsername" value="" />
+                
+                <label for="password">Password</label>
+                <input id="password" type="password" name="txtPassword" value="" />
+                
+                <div class="button-group">
+                    <input type="submit" value="Login" name="btAction" />
+                    <input type="reset" value="Reset" />
+                </div>
+            </fieldset>
+        </form>
+        <br/>
+        <a href="createAccount.html">Click here to sign up</a>
+    </body>
+</html>

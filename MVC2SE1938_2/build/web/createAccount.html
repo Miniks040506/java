@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Create</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/SignIn_style.css"/> </head>
+    <body>
+        <form action="createAccount" method="POST">
+            <fieldset>
+                <legend>Create Account</legend>
+                
+                <label for="username">Username*</label>
+                <input id="username" type="text" name="txtUsername" 
+                       value="" placeholder="(6-20 chars)"/>
+
+                <label for="password">Password*</label>
+                <input id="password" type="password" name="txtPassword" 
+                       value="" placeholder="(6-30 chars)"/>
+
+                <label for="confirm">Confirm*</label>
+                <input id="confirm" type="password" name="txtConfirm" 
+                       value="" placeholder="confirm"/>
+
+                <label for="fullname">Full name*</label>
+                <input id="fullname" type="text" name="txtFullname" 
+                       value="" placeholder="(2-50 chars)" />
+
+                <div class="button-group">
+                    <input type="submit" value="Create new Account" name="btAction" />
+                    <input type="reset" value="Reset" />
+                </div>
+            </fieldset>
+        </form>
+        <br/>
+        <a href="login.html">Click here to go back</a>
+    </body>
+</html>

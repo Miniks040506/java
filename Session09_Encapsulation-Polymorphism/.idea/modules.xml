@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BakeryShop/BakeryShop.iml" filepath="$PROJECT_DIR$/BakeryShop/BakeryShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncapsulationChallange/EncapsulationChallange.iml" filepath="$PROJECT_DIR$/EncapsulationChallange/EncapsulationChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_Challange_BurgerRestaurentApp/OOP_Challange_BurgerRestaurentApp.iml" filepath="$PROJECT_DIR$/OOP_Challange_BurgerRestaurentApp/OOP_Challange_BurgerRestaurentApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Package/Package.iml" filepath="$PROJECT_DIR$/Package/Package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PolymorphismChallenge/PolymorphismChallenge.iml" filepath="$PROJECT_DIR$/PolymorphismChallenge/PolymorphismChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Session09_Encapsulation-Polymorphism.iml" filepath="$PROJECT_DIR$/.idea/Session09_Encapsulation-Polymorphism.iml" />
+    </modules>
+  </component>
+</project>
