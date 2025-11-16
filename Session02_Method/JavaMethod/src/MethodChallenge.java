@@ -23,7 +23,7 @@ public class MethodChallenge {
         displayHighScorePosition("Bee", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(25);
-        displayHighScorePosition("harar", highScorePosition);
+        displayHighScorePosition("miniks", highScorePosition);
 
     }
 
